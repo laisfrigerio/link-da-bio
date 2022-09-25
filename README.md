@@ -1,3 +1,3 @@
 # Link da Bio
 
-Instagran Links Aggregator
+Instagram Links Aggregator
