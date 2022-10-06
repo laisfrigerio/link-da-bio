@@ -89,11 +89,18 @@ h2 {
   transition: color .6s;
 }
 
-.my-extra-links li:hover {
+.my-extra-links li.divisor {
+  cursor: initial;
+  border: none;
+  color: #2e9482;
+  margin-bottom: 10px;
+}
+
+.my-extra-links li:not(.divisor):hover {
   background-color: var(--gray-300);
 }
 
-.my-extra-links li:hover a {
+.my-extra-links li:not(.divisor):hover a {
   color: var(--background);
 }
 
